@@ -1,0 +1,55 @@
+/* GENERAL */
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+html{font: normal 16px sans-serif;
+    color: #555;
+    }
+
+ul, nav{list-style: none;}
+
+a{  text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    opacity: 0.95;}
+
+a:hover{opacity: 1;}
+
+nav { padding-left: 2%; }
+
+.title { text-align: center; margin-top: 3%; }
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    }
+
+/* Form */
+.Form-Container {
+    width: 40%;
+    margin: 5%;
+}
+
+.form-group { margin-bottom: 2%; }
+
+
+/* Submit */
+.btn { margin : 2% }
+
+/* Resulat */
+.result-container {
+    width: 40%;
+    margin: 5%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    }
+
+
